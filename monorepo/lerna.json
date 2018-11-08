@@ -1,0 +1,20 @@
+{
+  "lerna": "3.4.3",
+  "packages": [
+    "apps/*",
+    "services/*",
+    "infrastructure/*",
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "version": "independent",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "ignoreChanges": [
+        "*.md"
+      ]
+    }
+  }
+}
