@@ -8,4 +8,4 @@ pnpm i
 
 ## Results
 
-The working directory will fail because the dependency has been updated in the package.json. The flat-node-modules directory will not fail to install, and will update the package.json.
+The working directory will fail because the dependency has been updated in the package.json. The flat-node-modules directory will not fail to install, and will update the package.json even though the dependency version has been modified.
